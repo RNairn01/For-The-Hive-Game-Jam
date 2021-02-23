@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7cdd1f9a416d548979b4a8f78a5a15, type: 3}
+  m_Name: BearAttack
+  m_EditorClassIdentifier: 
+  eventName: Bear Attack!
+  eventText: 'A hideous beast covets our honey. '
+  eventMouseoverText: 'Success: Gain 30 Prestige
+
+
+    Failure: Lose 40 Honey'
+  eventArt: {fileID: 21300000, guid: 519fdbcd611ff8b44be3f9bedcca2a7b, type: 3}
+  beesCommitted: 0
+  eventDifficulty: 80
+  eventType: 3
+  succRes: 2
+  succAmount: 30
+  failRes: 1
+  failAmount: 40

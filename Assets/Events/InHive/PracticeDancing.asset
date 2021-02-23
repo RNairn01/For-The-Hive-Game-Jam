@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7cdd1f9a416d548979b4a8f78a5a15, type: 3}
+  m_Name: PracticeDancing
+  m_EditorClassIdentifier: 
+  eventName: Practice Dancing
+  eventText: All bees must perfect the honey dance.
+  eventMouseoverText: 'Success: Gain 20 Prestige
+
+
+    Failure: Lose 20 Prestige'
+  eventArt: {fileID: 21300000, guid: a99df72c3279ce74383fdd46801e4a74, type: 3}
+  beesCommitted: 0
+  eventDifficulty: 55
+  eventType: 0
+  succRes: 2
+  succAmount: 20
+  failRes: 2
+  failAmount: 20

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7cdd1f9a416d548979b4a8f78a5a15, type: 3}
+  m_Name: RootOutTraitors
+  m_EditorClassIdentifier: 
+  eventName: Root Out Traitors
+  eventText: There are rumours of spies amongst us. Find them!
+  eventMouseoverText: 'Success: Gain 10 Prestige
+
+
+    Failure: Lose 30 Prestige'
+  eventArt: {fileID: 21300000, guid: c2f4cbe8414341145ad78c868394993d, type: 3}
+  beesCommitted: 0
+  eventDifficulty: 35
+  eventType: 2
+  succRes: 2
+  succAmount: 10
+  failRes: 2
+  failAmount: 30

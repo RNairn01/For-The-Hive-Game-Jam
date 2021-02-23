@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7cdd1f9a416d548979b4a8f78a5a15, type: 3}
+  m_Name: GrandExpansion
+  m_EditorClassIdentifier: 
+  eventName: Grand Expansion
+  eventText: The time has come for a mighty hive expansion.
+  eventMouseoverText: 'Success: Gain 40 Bees
+
+
+    Failure: Lose 30 Prestige'
+  eventArt: {fileID: 21300000, guid: 7a5c0f77c2e98024a9ae6be1887d02f5, type: 3}
+  beesCommitted: 0
+  eventDifficulty: 100
+  eventType: 0
+  succRes: 0
+  succAmount: 40
+  failRes: 2
+  failAmount: 30
